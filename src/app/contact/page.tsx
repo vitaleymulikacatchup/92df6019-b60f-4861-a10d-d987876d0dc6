@@ -25,7 +25,6 @@ export default function ContactPage() {
           navItems={[
             {name: "Головна", id: "/"},
             {name: "Про нас", id: "/about"},
-            {name: "Меню", id: "/menu"},
             {name: "Контакти", id: "/contact"}
           ]}
           brandName="Пузата Хата"
@@ -59,15 +58,6 @@ export default function ContactPage() {
         logoText="Пузата Хата"
         copyrightText="© 2024 | Пузата Хата - Справжня Українська Кухня"
         columns={[
-          {
-            title: "Меню",
-            items: [
-              {label: "Закуски", href: "/menu"},
-              {label: "Перші страви", href: "/menu"},
-              {label: "Основні страви", href: "/menu"},
-              {label: "Десерти", href: "/menu"}
-            ]
-          },
           {
             title: "Ресторан",
             items: [

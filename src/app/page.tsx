@@ -28,7 +28,6 @@ export default function HomePage() {
           navItems={[
             {name: "Головна", id: "/"},
             {name: "Про нас", id: "/about"},
-            {name: "Меню", id: "/menu"},
             {name: "Контакти", id: "/contact"}
           ]}
           brandName="Пузата Хата"
@@ -46,7 +45,6 @@ export default function HomePage() {
           tag="З 1995 року"
           tagIcon={ChefHat}
           buttons={[
-            {text: "Переглянути меню", href: "/menu"},
             {text: "Забронювати столик", href: "/contact"}
           ]}
           imageSrc="https://pixabay.com/get/gd732bee7c0dd9b6f83dff718813f701e5aeb448c06aae3ea3b3f20c50db8a803f78137d853bf2feaa9915f4f5c864a17a4eef8bbb7964b0094037e7f9feb5755_1280.jpg"
@@ -116,15 +114,6 @@ export default function HomePage() {
         logoText="Пузата Хата"
         copyrightText="© 2024 | Пузата Хата - Справжня Українська Кухня"
         columns={[
-          {
-            title: "Меню",
-            items: [
-              {label: "Закуски", href: "/menu"},
-              {label: "Перші страви", href: "/menu"},
-              {label: "Основні страви", href: "/menu"},
-              {label: "Десерти", href: "/menu"}
-            ]
-          },
           {
             title: "Ресторан",
             items: [
