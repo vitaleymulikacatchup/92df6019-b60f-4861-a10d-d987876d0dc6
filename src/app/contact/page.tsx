@@ -25,6 +25,7 @@ export default function ContactPage() {
           navItems={[
             {name: "Головна", id: "/"},
             {name: "Про нас", id: "/about"},
+            {name: "Команда", id: "/team"},
             {name: "Контакти", id: "/contact"}
           ]}
           brandName="Пузата Хата"
@@ -62,6 +63,7 @@ export default function ContactPage() {
             title: "Ресторан",
             items: [
               {label: "Про нас", href: "/about"},
+              {label: "Команда", href: "/team"},
               {label: "Відгуки", href: "/"},
               {label: "Контакти", href: "/contact"},
               {label: "Бронювання", href: "/contact"}
